@@ -14,7 +14,7 @@
 
     <main class="w-full flex flex-col sm-600:flex-row sm-600:gap-x-4 md:px-4 md:mt-10 lg-1200:w-[1180px] lg-1200:mx-auto">
         <!-- container profil -->
-        <div class="bg-white w-full p-10 sm-600:w-[50%] md:rounded-3xl lg:w-[400px] lg:px-6">
+        <div class="bg-white w-full p-10 sm-600:w-[40%] md:rounded-3xl lg:w-[400px] lg:px-6">
             <!-- card profil -->
             <img src="public/img/profil.jpg" alt="Profil" class="w-40 h-40 object-cover mx-auto rounded-xl lg:w-[200px] lg:h-[200px]">
 
@@ -111,23 +111,23 @@
         </div>
 
         <!-- my detail -->
-        <div class="bg-white w-full h-screen mt-4 sm-600:flex-[2] md:rounded-3xl">
+        <div class="bg-white w-full h-screen mt-4 flex flex-col items-center sm-600:flex-[2] md:rounded-3xl sm-600:mt-0 md:bg-transparent">
             <!-- navigation -->
-            <nav class="bg-white w-full fixed bottom-0 d h-12 border-t border-zinc-100 flex">
+            <nav class="bg-white w-full fixed bottom-0 right-0 left-0 d h-12 border-t border-zinc-100 flex md:relative md:bg-body md:w-[376px] md:border md:border-zinc-300 md:rounded-2xl md:overflow-hidden md:h-16 md:justify-center md:items-center md:gap-x-7 lg:h-[100px] lg:w-[400px]">
                 <!-- home -->
-                <a href="" class="bg-orange border-r border-zinc-100 flex-1 flex flex-col items-center py-1 gap-y-1">
-                    <img src="public/icon/home.png" alt="Icon" class="w-4">
-                    <p class="text-[0.7rem] text-white font-semibold">Home</p>
+                <a href="" class="bg-orange border-r border-zinc-100 flex-1 flex flex-col items-center py-1 gap-y-1 md:flex-none md:w-12 md:h-12 md:rounded-xl lg:w-16 lg:h-16 lg:justify-center">
+                    <img src="public/icon/home.png" alt="Icon" class="w-4 lg:w-6">
+                    <p class="text-[0.7rem] text-white font-semibold md:text-[0.6rem]">Home</p>
                 </a>
 
-                <a href="" class="border-r border-zinc-100 flex-1 flex flex-col items-center py-1 gap-y-1">
-                    <img src="public/icon/resume.png" alt="Icon" class="w-4">
-                    <p class="text-[0.7rem] text-black font-semibold">Resume</p>
+                <a href="/resume" class="border-r border-zinc-100 flex-1 flex flex-col items-center py-1 gap-y-1 md:flex-none md:w-12 md:h-12 md:rounded-xl lg:w-16 lg:h-16 lg:justify-center md:bg-[#E1E8EF]">
+                    <img src="public/icon/resume.png" alt="Icon" class="w-4 lg:w-6">
+                    <p class="text-[0.7rem] text-black font-semibold md:text-[0.6rem]">Resume</p>
                 </a>
 
-                <a href="" class="flex-1 flex flex-col items-center py-1 gap-y-1">
-                    <img src="public/icon/contact.png" alt="Icon" class="w-4">
-                    <p class="text-[0.7rem] text-black font-semibold">Contact</p>
+                <a href="/contact" class="flex-1 flex flex-col items-center py-1 gap-y-1 md:flex-none md:w-12 md:h-12 md:rounded-xl lg:w-16 lg:h-16 lg:justify-center md:bg-[#E1E8EF]">
+                    <img src="public/icon/contact.png" alt="Icon" class="w-4 lg:w-6">
+                    <p class="text-[0.7rem] text-black font-semibold md:text-[0.6rem]">Contact</p>
                 </a>
             </nav>
         </div>
