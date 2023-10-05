@@ -12,10 +12,12 @@ module.exports = {
       fontFamily: {
         'pacifico': ['Pacifico', 'cursive'],
         'raleway': ['Raleway', 'sans-serif'],
+        'poppins': ['Poppins', 'sans-serif'],
       },
       screens: {
-        'lg-1200': '1200px',
         'sm-600': '600px',
+        'lg-1200': '1200px',
+        'lg-1180': '1180px',
       },
     },
   },
